@@ -1,7 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { BiCaretRight } from "react-icons/bi";
+import AOS from 'aos';
+import "aos/dist/aos.css"
+
 
 const HomeDigital = () => {
+  useEffect(()=>{
+    AOS.init({duration:1000})
+  },[])
+  
+  
   return (
     <>
       <h2>Digital Marking Agency...</h2>
@@ -14,7 +22,7 @@ const HomeDigital = () => {
 
         </p>
 
-        <img src="https://www.cyperts.net/wp-content/uploads/2017/08/Sem-Título-2.png" alt="Digital Marketing Agency..." />
+        <img  data-aos="fade-up-left" src="https://www.cyperts.net/wp-content/uploads/2017/08/Sem-Título-2.png" alt="Digital Marketing Agency..." />
 
       </div>
       <div className='wraper-btn-left'>

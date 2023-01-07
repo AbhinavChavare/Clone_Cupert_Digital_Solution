@@ -114,7 +114,43 @@
     color: #2980b9;
     /* background-color: yellow; */
     font-size: 3rem;
+    /* transform: translateX(0px); */
+    animation: moveresicon .4s forwards ease-in-out;
 }
+
+.choose-cont:hover .sliiconz{
+/* transform: translateX(-20px); */
+animation: moveicon .6s forwards ease-in-out;
+/* background-color: #0693e3; */
+}
+@keyframes moveicon {
+    0%{ 
+        transform: translateX(0px);
+    }
+    
+    75%{
+        transform: translateX(-20px);
+    }
+    100%{
+        transform: translateX(-15px);
+    }
+    
+}
+@keyframes moveresicon {
+    0%{ 
+        transform: translateX(-15px);
+    }
+    
+    75%{
+        transform: translateX(5px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+    
+}
+
+
 
 .choose-cont p {
     color: #5b6a78;
@@ -146,17 +182,17 @@
     margin-left: 8rem;
     margin-right: 2rem;
     z-index: 10;
-    visibility: hidden;
+    /* visibility: hidden; */
     transform: translateY(50px);
 
 }
 
-.digital-cont:hover img,
+/* .digital-cont:hover img,
 .digital-cont:focus img {
     transform: translateY(-20px);
     visibility: visible;
     transition: 1s ease-in-out;
-}
+} */
 
 
 

@@ -1,11 +1,12 @@
 import React from 'react'
+import { IoIosArrowUp } from "react-icons/io";
 
 const NavHeadLinks = () => {
     return (
         <div className='links-cont'>
                <ul ><li ><a href="https://www.cyperts.net/">HOME</a></li>
                     <li ><a href="https://www.cyperts.net/about-us/">ABOUT</a></li>
-                    <li ><a href="https://www.cyperts.net/services/" aria-current="page">SERVICES</a>
+                    <li ><a href="https://www.cyperts.net/services/" aria-current="page">SERVICES<IoIosArrowUp className='arrow-icon'/></a>
                         <ul className="sub-menu">
                             <li><a href="https://www.cyperts.net/website-development/">WEBSITE DEVELOPMENT</a></li>
                             <li ><a href="https://www.cyperts.net/mobile-app-development/">MOBILE APPLICATION DEVELOPMENT</a></li>
@@ -13,9 +14,9 @@ const NavHeadLinks = () => {
                         </ul>
                     </li>
                     <li ><a href="https://www.cyperts.net/portfolio/">PORTFOLIO</a></li>
-                    <li ><a href="https://www.cyperts.net/blog/">BLOG</a></li>
-                    <li ><a href="https://www.cyperts.net/case-studies/">CASE STUDIES</a></li>
-                    <li ><a href="https://www.cyperts.net/contact/">CONTACT</a>
+                    <li ><a href="https://www.cyperts.net/blog/">BLOG </a></li>
+                    <li ><a href="https://www.cyperts.net/case-studies/">CASE STUDIES </a></li>
+                    <li ><a href="https://www.cyperts.net/contact/">CONTACT <IoIosArrowUp className='arrow-icon'/></a>
                         <ul className="sub-menu">
                             <li><a href="https://www.cyperts.net/career/">CAREER</a></li>
                         </ul>

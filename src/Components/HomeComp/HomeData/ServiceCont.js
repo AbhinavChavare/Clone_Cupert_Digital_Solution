@@ -1,14 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { BiDesktop } from "react-icons/bi";
 import { AiFillAndroid } from "react-icons/ai";
 import { FaGlobeAsia } from "react-icons/fa";
+import AOS from 'aos';
+import "aos/dist/aos.css"
 
 const ServiceCont = () => {
+	useEffect(() => {
+		AOS.init({ duration: 1500 })
+	}, [])
+  
+
   return (
     <>
       <h2>Our Services ...</h2>
       <div className='choose-sec'>
-        <div className='choose-cont'>
+        <div  data-aos="fade-right" className='choose-cont'>
         <div className='flex-center'>
           <BiDesktop className='sliiconz' />
           </div>
@@ -16,7 +23,7 @@ const ServiceCont = () => {
           <p>Our developers are well-versed in their domain knowledge and will always deliver the best static or dynamic website with mobile friendliness</p>
           <a href="http://www.cyperts.net/website-development/">Read More...</a>
         </div>
-        <div className='choose-cont  chos-mar-y-1'>
+        <div data-aos="fade-up" className='choose-cont  chos-mar-y-1'>
         <div className='flex-center'>
           <AiFillAndroid className='sliiconz' />
           </div>
@@ -24,7 +31,7 @@ const ServiceCont = () => {
           <p>We are expert in iOS App Development and Android App Development.We offer best and affordable mobile app development services globally.</p>
           <a href="https://www.cyperts.net/mobile-app-development/">Read More...</a>
         </div>
-        <div className='choose-cont  chos-mar-y-2'>
+        <div data-aos="fade-left" className='choose-cont  chos-mar-y-2'>
         <div className='flex-center'>
           <FaGlobeAsia className='sliiconz' />
           </div>
