@@ -12,7 +12,24 @@ import Aos from 'aos'
 
 const HomeCont = () => {
   useEffect(()=>{
+    (function()
+    {
+      if( window.localStorage )
+      {
+        if( !localStorage.getItem('firstLoad') )
+        {
+          localStorage['firstLoad'] = true;
+          window.location.reload();
+        }  
+        else
+          localStorage.removeItem('firstLoad');
+      }
+    })();
     
+  },[])
+  AOS.refresh()
+  useEffect(()=>{
+    AOS.refresh()
     AOS.init({duration:1500})
     Aos.refresh()
 },[])
