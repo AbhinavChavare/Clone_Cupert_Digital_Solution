@@ -7,10 +7,14 @@ import PortFolio from './PortFolio'
 import ServiceCont from './ServiceCont'
 import AOS from 'aos';
 import "aos/dist/aos.css"
+import Aos from 'aos'
+
 
 const HomeCont = () => {
-useEffect(()=>{
-  AOS.init({duration:1500})
+  useEffect(()=>{
+    
+    AOS.init({duration:1500})
+    Aos.refresh()
 },[])
 
 

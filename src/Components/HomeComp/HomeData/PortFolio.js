@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react'
 import { FaSearch } from "react-icons/fa";
 import { BiCaretRight } from "react-icons/bi";
-import AOS from 'aos';
-import "aos/dist/aos.css"
+// import AOS from 'aos';
+// import "aos/dist/aos.css"
 
 const PortFolio = () => {
-	useEffect(() => {
-		AOS.init({ duration: 1500 })
-	}, [])
+	// useEffect(() => {
+	// 	AOS.init({ duration: 1500 })
+	// }, [])
 
 
 	return (

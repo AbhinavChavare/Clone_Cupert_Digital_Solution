@@ -2,13 +2,13 @@ import React, { useEffect } from 'react'
 import { BsSliders } from "react-icons/bs";
 import { GrDiamond } from "react-icons/gr";
 import { FaCogs } from "react-icons/fa";
-import AOS from 'aos';
-import "aos/dist/aos.css"
+// import AOS from 'aos';
+// import "aos/dist/aos.css"
 
 const ChooseCont = () => {
-	useEffect(() => {
-		AOS.init({ duration: 1500 })
-	}, [])
+	// useEffect(() => {
+	// 	AOS.init({ duration: 1500 })
+	// }, [])
 
 	return (
 		<>

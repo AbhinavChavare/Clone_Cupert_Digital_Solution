@@ -2,13 +2,13 @@ import React, { useEffect } from 'react'
 import { BiDesktop } from "react-icons/bi";
 import { AiFillAndroid } from "react-icons/ai";
 import { FaGlobeAsia } from "react-icons/fa";
-import AOS from 'aos';
-import "aos/dist/aos.css"
+// import AOS from 'aos';
+// import "aos/dist/aos.css"
 
 const ServiceCont = () => {
-	useEffect(() => {
-		AOS.init({ duration: 1500 })
-	}, [])
+	// useEffect(() => {
+	// 	AOS.init({ duration: 1500 })
+	// }, [])
   
 
   return (
