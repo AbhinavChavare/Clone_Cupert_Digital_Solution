@@ -1,5 +1,4 @@
 import React from 'react'
-import Details from '../Components/Details/Details'
 import Footer from '../Components/Footer/Footer'
 import HomeHeader from '../Components/HomeComp/HomeHeader/HomeHeader'
 

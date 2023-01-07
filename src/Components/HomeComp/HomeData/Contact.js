@@ -3,26 +3,25 @@ import React from 'react'
 const Contact = () => {
   return (
     <div>
-     <h2>Contact ....</h2>
- 
-    <div className='choose-sec'>
+      <h2>Contact ....</h2>
 
-<form action="/#wpcf7-f1107-o1">
+      <div className='choose-sec'>
 
-<div className='contact-cont'>
-<div>
-<input id='fname' placeholder='Your name'></input></div>
-<div className='contact-email'>
-<input id='email' placeholder='Your email'></input>
-</div>
-</div>
-<textarea rows={5}  placeholder='Your message here...'></textarea>
+        <form action="/#wpcf7-f1107-o1">
+          <div className='contact-cont'>
+            <div>
+              <input id='fname' placeholder='Your Name'></input></div>
+            <div className='contact-email'>
+              <input id='email' placeholder='Your Email'></input>
+            </div>
+          </div>
+          <textarea rows={5} placeholder='Your message here...'></textarea>
 
-<div className='contact-btn'>
-    <button type='submit'>Send</button>
-</div>
-    </form>
-    </div>
+          <div className='contact-btn'>
+            <button type='submit'>Send</button>
+          </div>
+        </form>
+      </div>
     </div>
   )
 }

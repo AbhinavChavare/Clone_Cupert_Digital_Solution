@@ -17,16 +17,16 @@ const HomeDigital = () => {
         <img src="https://www.cyperts.net/wp-content/uploads/2017/08/Sem-Título-2.png" alt="Digital Marketing Agency..." />
 
       </div>
-<div className='wraper-btn-left'>
-      <div className='style-btn'>
+      <div className='wraper-btn-left'>
+        <div className='style-btn'>
 
-        <div className='btn-style '>
-          <a className='btn-wrap' href="http://cyperts.net/about-us/">
-            Read More <BiCaretRight />
-          </a>
-          <div className='slide-col' ></div>
+          <div className='btn-style '>
+            <a className='btn-wrap' href="http://cyperts.net/about-us/">
+              Read More <BiCaretRight />
+            </a>
+            <div className='slide-col' ></div>
+          </div>
         </div>
-      </div>
       </div>
     </>
   )

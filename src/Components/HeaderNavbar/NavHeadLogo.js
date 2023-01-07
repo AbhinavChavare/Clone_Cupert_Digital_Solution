@@ -7,7 +7,6 @@ import { FaBars,FaTimes } from "react-icons/fa";
 const NavHeadLogo = () => {
 
 const [headbg,setHeadbg]=useState(false)
-const [animate,setAnimate]=useState(false)
 const [togbar,setTogbar]=useState(false)
 
 const Headbgcol=()=>{
@@ -17,12 +16,6 @@ const Headbgcol=()=>{
   else{
     setHeadbg(false)
   }
-  
-//   const anima=(anim)=>{
-//   if(window.scrollY>anim)
-// const [animate,setAnimate]=useState(false)
-//   return ;
-//   }
 
 }
 

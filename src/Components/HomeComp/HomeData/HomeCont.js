@@ -9,25 +9,25 @@ import ServiceCont from './ServiceCont'
 const HomeCont = () => {
   return (
     <div className='datasa'>
-    
+
       <section >
-      <ChooseCont/>
+        <ChooseCont />
       </section>
 
-         <section>
-        <HomeDigital/>
-      </section>
-      
-      <section >
-      <ServiceCont/>
+      <section>
+        <HomeDigital />
       </section>
 
       <section >
-      <PortFolio/>
+        <ServiceCont />
       </section>
 
       <section >
-   <Contact/>
+        <PortFolio />
+      </section>
+
+      <section >
+        <Contact />
       </section>
     </div>
   )

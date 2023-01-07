@@ -26,11 +26,11 @@ const Footer = () => {
           </div>
           <h5 href='https://www.linkedin.com/in/abhinav-chavare-3a8110112/' target="_blank"
           ></h5>
-          <h4>
+          <h6>
            <span> Phone: +91-9921899345</span> 
 
           <span>  Email : abhinavchavare07@gmail.com</span>
-</h4>
+</h6>
         </div>
       </div>
 </div>

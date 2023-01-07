@@ -5,16 +5,15 @@
 
 .head-cont{
     width: 100%;
-    padding: 2.5rem;
+    padding: 0 2.5rem;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     position: absolute;
     top: 0px;
     left: 0;
     background-color: transparent;
     /* background-color: #2980b9; */
     z-index: 90;
- 
 }
 .bgcol{
     background-color:#fff;
@@ -28,11 +27,6 @@
     text-align: left;
 }
 
-.rough{
-
-    font-size: 25px;
-}
-
 /* NavHeadLinks */
 
 .links-cont ul{
@@ -40,8 +34,8 @@
     background-color: wheat;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
-font-size: 1.5rem;
+    padding: 1rem 2rem;
+font-size: 1.7rem;
 font-weight: 500;
 color: #000;
 background: transparent;
@@ -88,6 +82,26 @@ position: relative;
     /* background-color:bisque; */
 }
 
+@media (max-width:1050px) {
+    .head-cont{
+        width: 100%;
+        padding: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        background-color: transparent;
+        /* background-color: #2980b9; */
+        z-index: 90;
+    }
+    .bgcol{
+        background-color:#fff;
+        position: fixed;
+        top: 0px;
+        left: 0;
+    }
+}
 @media (max-width:750px) {
 
     .toggle-head{
